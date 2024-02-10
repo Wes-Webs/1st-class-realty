@@ -40,17 +40,17 @@ function Contact() {
                     <div className='row'>
                         <div className='col-md-6 col-lg-6 col-xl-6'>
                             <label className='d-none' for="firstName">First Name</label>
-                            <input className='bg-light mb-3 border-bottom-only' type="text" id="firstName" name="firstName" placeholder='First Name'/><br/>
+                            <input className='bg-light mb-3 border-bottom-only rounded-0' type="text" id="firstName" name="firstName" placeholder='First Name'/><br/>
 
                             <label className='d-none' for="lastName">Last Name</label>
-                            <input className='bg-light mb-3 border-bottom-only' type="text" id="lastName" name="lastName" placeholder='Last Name'/><br/>
+                            <input className='bg-light mb-3 border-bottom-only rounded-0' type="text" id="lastName" name="lastName" placeholder='Last Name'/><br/>
                         </div>
                         <div className='col-md-6 col-lg-6 col-xl-6'>
                             <label className='d-none' for="email">Email Address</label>
-                            <input className='bg-light mb-3 border-bottom-only' type="email" id="email" name="email" placeholder='Email Address'/><br/>
+                            <input className='bg-light mb-3 border-bottom-only rounded-0' type="email" id="email" name="email" placeholder='Email Address'/><br/>
 
                             <label className='d-none' for="phone">Phone Number</label>
-                            <input className='bg-light mb-3 border-bottom-only' type="tel" id="phone" name="phone" placeholder='Phone Number'/><br/>
+                            <input className='bg-light mb-3 border-bottom-only rounded-0' type="tel" id="phone" name="phone" placeholder='Phone Number'/><br/>
                         </div>
                     </div>
 
