@@ -1,0 +1,17 @@
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+}
+
+.hr-custom-r {
+    width:70px;
+    border-width: 3px;
+    color: #747476 !important;
+    opacity: 2;
+}

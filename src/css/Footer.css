@@ -1,0 +1,15 @@
+#footer {
+    background-color: black;
+    color:white;
+}
+.fa-facebook-square,
+.fa-linkedin-square,
+.fa-youtube-square,
+.fa-instagram,
+.fa-chevron-right {
+    color:#747476 !important;
+}
+.footer-text {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}

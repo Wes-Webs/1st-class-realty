@@ -1,0 +1,35 @@
+.background-image {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/real-estate-agents-3.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh; /* Adjust the height as needed */
+}
+
+.navbar-logo {
+    max-width: 220px;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700 !important;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #747476 !important;
+}
+
+.main-header {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.main-header-grey-text {
+    font-weight: 700;
+    color: white;
+}
+
+.sub-header {
+    font-weight: 300 !important;
+}

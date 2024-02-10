@@ -1,0 +1,17 @@
+.sub-header {
+    font-size: 22px;
+    font-weight: 400 !important;
+}
+.culture-header {
+    font-size: 50px;
+    font-weight: 300;
+}
+.culture-block {
+    line-height: 1.9;
+}
+.hr-custom-r {
+    width:70px;
+    border-width: 3px;
+    color:red !important;
+    opacity: 2;
+}
