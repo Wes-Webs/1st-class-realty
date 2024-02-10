@@ -55,7 +55,7 @@ function Contact() {
                     </div>
 
                     <label className='d-none' for="message">Message:</label>
-                    <textarea className='bg-light border-bottom-only mb-4' id="message" name="message" placeholder='Message' rows="3"></textarea><br/>
+                    <textarea className='bg-light border-bottom-only mb-4 rounded-0' id="message" name="message" placeholder='Message' rows="3"></textarea><br/>
                     <div className='d-flex justify-content-center'>
                         <input type="submit" value="Submit"/>
                     </div>
