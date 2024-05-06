@@ -1,4 +1,4 @@
-form {
+#contact-form {
     width: 1000px; /* Adjust width as needed */
 }
 
@@ -43,9 +43,9 @@ input[type="submit"]:hover {
 }
 
 /* Input fields placeholder text */
-input[type="text"]::placeholder,
-input[type="email"]::placeholder,
-input[type="tel"]::placeholder,
+#contact-form input[type="text"]::placeholder,
+#contact-form input[type="email"]::placeholder,
+#contact-form input[type="tel"]::placeholder,
 textarea::placeholder {
   color: black; /* Set the color to black */
 }
@@ -61,3 +61,98 @@ textarea::placeholder {
     border-bottom: 1px solid black;
     outline: none; /* Remove the default focus outline */
   }
+
+.youtube-video {
+max-width: 100%;
+height: 100%;
+}
+
+@media (max-width: 768px) {
+.youtube-video {
+    width: 100%;
+    height: 100%;
+}
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+@media only screen and (min-width: 1200px) {
+    .video-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 28.00%;
+        margin-bottom: 10px;
+    }
+    .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+}
+
+.red-title {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.red-question {
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.black-description {
+  color: rgb(104, 104, 104);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.black-reg {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-label {
+  margin-bottom: 10px; /* Add some space between each radio button */
+  display: flex;
+  align-items: center;
+}
+
+.radio-label input[type="radio"] {
+  transform: scale(1.5); /* Increase the size of the radio button */
+  margin-right: 10px; /* Add some spacing between the button and the label */
+}
+
+select:focus {
+  outline: none !important;
+}

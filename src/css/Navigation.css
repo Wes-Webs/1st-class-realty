@@ -1,9 +1,9 @@
 .background-image {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/real-estate-agents-3.jpg'); /* Replace with your image path */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/real-estate-agents-4.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh; /* Adjust the height as needed */
+    height: 90vh; /* Adjust the height as needed */
 }
 
 .navbar-logo {
@@ -33,3 +33,18 @@
 .sub-header {
     font-weight: 300 !important;
 }
+
+.pointer {
+    cursor: pointer;
+  }
+
+.navbar-toggler-icon {
+    filter: grayscale(100%) brightness(1000%); /* Turns the image white */
+}
+
+.navbar-toggler {
+    &:focus {
+      outline: none;
+    }
+  }
+

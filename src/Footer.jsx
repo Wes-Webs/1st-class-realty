@@ -1,8 +1,10 @@
 import { useState } from 'react'
+import { Link as Anchor } from 'react-router-dom';
 import './css/Footer.css'
 import equalLogo from './images/realtor-equal-grey.jpg';
 import mainLogo from './images/logo-grey-text.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 
 function Footer() {
@@ -21,7 +23,7 @@ function Footer() {
                             <i className="fa fa-map-marker" aria-hidden="true"></i>
                         </div>
                         <div className='footer-text'>
-                            Locations in SLC
+                            4685 S. Highland Dr #126<br/> Salt Lake City, UT 84117
                         </div>
                     </div>
                     <div className='d-flex flex-row mb-3'>
@@ -29,7 +31,7 @@ function Footer() {
                             <i className="fa fa-phone" aria-hidden="true"></i>
                         </div>
                         <div className='footer-text'>
-                            555-555-5555
+                            <a href="tel:+8016045973" className='text-white footer-link'>801-604-5973</a>
                         </div>
                     </div>
                     <div className='d-flex flex-row'>
@@ -37,7 +39,7 @@ function Footer() {
                             <i className="fa fa-envelope" aria-hidden="true"></i>
                         </div>
                         <div className='footer-text'>
-                            SLCGroup@1stclassagents.com
+                            <a href="mailto:Chris.utahrealestate@gmail.com" className='text-white footer-link'>Chris.utahrealestate@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -47,37 +49,37 @@ function Footer() {
                         <div className='d-flex flex-column mr-5' style={{paddingRight:'80px'}}>
                             <div className='d-flex flex-row mb-3'>
                                 <div style={{paddingRight:'10px'}}>
-                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                 </div>
-                                <div className='footer-text'>
+                                <a href="/" smooth={true} duration={0} className='footer-text text-white footer-link'>
                                     HOME
-                                </div>
+                                </a>
                             </div>
                             <div className='d-flex flex-row mb-3'>
                                 <div style={{paddingRight:'10px'}}>
-                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                 </div>
-                                <div className='footer-text'>
+                                <ScrollLink className='footer-text text-white footer-link pointer' to="about" smooth={true} duration={0}>
                                     ABOUT
-                                </div>
+                                </ScrollLink>
                             </div>
                         </div>
                         <div className='d-flex flex-column'>
                             <div className='d-flex flex-row mb-3'>
                                 <div style={{paddingRight:'10px'}}>
-                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                 </div>
-                                <div className='footer-text'>
+                                <ScrollLink className='footer-text text-white footer-link pointer' to="culture" smooth={true} duration={0}>
                                     CULTURE
-                                </div>
+                                </ScrollLink>
                             </div>
                             <div className='d-flex flex-row mb-3'>
                                 <div style={{paddingRight:'10px'}}>
-                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                 </div>
-                                <div className='footer-text'>
+                                <ScrollLink className='footer-text text-white footer-link pointer' to="contact" smooth={true} duration={0}>
                                     CONTACT
-                                </div>
+                                </ScrollLink>
                             </div>
                         </div>
                     </div>
@@ -94,10 +96,7 @@ function Footer() {
                 </div>
                 <div className='col-6 d-flex justify-content-end'>
                     <div className='d-flex flex-row'>
-                        <i class="fa fa-facebook-square fa-2x mx-2" aria-hidden="true"></i>
-                        <i class="fa fa-linkedin-square fa-2x mx-2" aria-hidden="true"></i>
-                        <i class="fa fa-youtube-square fa-2x mx-2" aria-hidden="true"></i>
-                        <i class="fa fa-instagram fa-2x mx-2" aria-hidden="true"></i>
+                        <Anchor to='/privacy' className='text-white footer-link'>Privacy Policy</Anchor>
                     </div>
                 </div>
             </div>
