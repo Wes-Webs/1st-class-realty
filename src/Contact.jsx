@@ -85,7 +85,7 @@ function Contact() {
                     <div className='col-12 col-xl-6 m-2 text-center video-container'>
                         <iframe
                             title="YouTube video"
-                            src="https://www.youtube.com/embed/kj83VVBXTEE"
+                            src="https://www.youtube.com/embed/F17AX_Yf_hs"
                             frameBorder="0"
                             allowFullScreen
                             className="video"
