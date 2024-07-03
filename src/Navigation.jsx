@@ -27,7 +27,7 @@ function Navigation() {
                 <a
                   className={`nav-link px-4 ${isNavOpen ? 'py-4 mx-3 border-bottom border-secondary' : ''}`}
                   href="/"
-                  smooth={true}
+                  smooth="true"
                   duration={0}
                 >
                   HOME
@@ -35,7 +35,7 @@ function Navigation() {
                 <ScrollLink
                   className={`nav-link px-4 pointer ${isNavOpen ? 'py-4 mx-3 border-bottom border-secondary' : ''}`}
                   to="about"
-                  smooth={true}
+                  smooth="true"
                   duration={0}
                 >
                   ABOUT
@@ -43,7 +43,7 @@ function Navigation() {
                 <ScrollLink
                   className={`nav-link px-4 pointer ${isNavOpen ? 'py-4 mx-3 border-bottom border-secondary' : ''}`}
                   to="culture"
-                  smooth={true}
+                  smooth="true"
                   duration={0}
                 >
                   CULTURE
@@ -51,7 +51,7 @@ function Navigation() {
                 <ScrollLink
                   className={`nav-link px-4 pointer ${isNavOpen ? 'py-4 mx-3' : ''}`}
                   to="contact"
-                  smooth={true}
+                  smooth="true"
                   duration={0}
                 >
                   CONTACT
@@ -66,7 +66,7 @@ function Navigation() {
             <div className='col-12 w-75'>
               <h1 className='border-bottom pb-3 mb-3 main-header'><span className='main-header-grey-text'><b>1st Class</b></span> Real Estate</h1>
               <h4 className='sub-header mb-5'>We’ve made it possible for you to grow your business with a team of individuals without breaking the bank!</h4>
-              <ScrollLink className='pointer' to="contact" smooth={true} duration={0}><button type="button" className="btn btn-outline-light border-4 rounded-0 button-link py-3 px-5">BECOME AN AGENT</button></ScrollLink>
+              <ScrollLink className='pointer' to="contact" smooth="true" duration={0}><button type="button" className="btn btn-outline-light border-4 rounded-0 button-link py-3 px-5">BECOME AN AGENT</button></ScrollLink>
             </div>
           </div>
         </div>

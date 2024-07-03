@@ -51,7 +51,7 @@ function Footer() {
                                 <div style={{paddingRight:'10px'}}>
                                     <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                 </div>
-                                <a href="/" smooth={true} duration={0} className='footer-text text-white footer-link'>
+                                <a href="/" smooth="true" duration={0} className='footer-text text-white footer-link'>
                                     HOME
                                 </a>
                             </div>
@@ -59,7 +59,7 @@ function Footer() {
                                 <div style={{paddingRight:'10px'}}>
                                     <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                 </div>
-                                <ScrollLink className='footer-text text-white footer-link pointer' to="about" smooth={true} duration={0}>
+                                <ScrollLink className='footer-text text-white footer-link pointer' to="about" smooth="true" duration={0}>
                                     ABOUT
                                 </ScrollLink>
                             </div>
@@ -69,7 +69,7 @@ function Footer() {
                                 <div style={{paddingRight:'10px'}}>
                                     <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                 </div>
-                                <ScrollLink className='footer-text text-white footer-link pointer' to="culture" smooth={true} duration={0}>
+                                <ScrollLink className='footer-text text-white footer-link pointer' to="culture" smooth="true" duration={0}>
                                     CULTURE
                                 </ScrollLink>
                             </div>
@@ -77,7 +77,7 @@ function Footer() {
                                 <div style={{paddingRight:'10px'}}>
                                     <i className="fa fa-chevron-right" aria-hidden="true"></i>
                                 </div>
-                                <ScrollLink className='footer-text text-white footer-link pointer' to="contact" smooth={true} duration={0}>
+                                <ScrollLink className='footer-text text-white footer-link pointer' to="contact" smooth="true" duration={0}>
                                     CONTACT
                                 </ScrollLink>
                             </div>

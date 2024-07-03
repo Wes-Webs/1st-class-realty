@@ -102,22 +102,22 @@ function Contact() {
                     <form id="contact-form"  onSubmit={handleContactInfo} >
                         <div className='row'>
                             <div className='col-md-6 col-lg-6 col-xl-6'>
-                                <label className='d-none' htmlfor="firstName">First Name</label>
+                                <label className='d-none' htmlFor="firstName">First Name</label>
                                 <input className='bg-light mb-3 border-bottom-only rounded-0' type="text" id="fname" name="fname" placeholder='First Name' onChange={updateFname} required/><br/>
 
-                                <label className='d-none' htmlfor="lastName">Last Name</label>
+                                <label className='d-none' htmlFor="lastName">Last Name</label>
                                 <input className='bg-light mb-3 border-bottom-only rounded-0' type="text" id="lname" name="lname" placeholder='Last Name' onChange={updateLname} required/><br/>
                             </div>
                             <div className='col-md-6 col-lg-6 col-xl-6'>
-                                <label className='d-none' htmlfor="email">Email Address</label>
+                                <label className='d-none' htmlFor="email">Email Address</label>
                                 <input className='bg-light mb-3 border-bottom-only rounded-0' type="email" id="email" name="email" placeholder='Email Address' onChange={updateEmail} required/><br/>
 
-                                <label className='d-none' htmlfor="phone">Phone Number</label>
+                                <label className='d-none' htmlFor="phone">Phone Number</label>
                                 <input className='bg-light mb-3 border-bottom-only rounded-0' type="tel" id="phone" name="phone" placeholder='Phone Number' onChange={updatePhone}/><br/>
                             </div>
                         </div>
 
-                        <label className='d-none' htmlfor="message">Message:</label>
+                        <label className='d-none' htmlFor="message">Message:</label>
                         <textarea className='bg-light border-bottom-only mb-4 rounded-0' id="message" name="message" placeholder='Message' rows="3" onChange={updateMessage} required></textarea><br/>
 
                         <div className='d-flex flex-column justify-content-center align-items-center'>

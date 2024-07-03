@@ -27,7 +27,7 @@ function NavigationBlack() {
                     activeClass="active"
                     to="/"
                     spy={true}
-                    smooth={true}
+                    smooth="true"
                     offset={-70}
                     duration={500}
                 >
